@@ -39,14 +39,4 @@ class LinkedList:
         return False
 
     def reverse_list(self, node, prev):
-        prev = None # initial state of prev is none.
-        node = self.head 
-        
-        #if we are reversing a ll that means the add to head function has already been called. and if that is the case self.head has the attributes of the Node class. that includes next_node and value. 
-
-        while node: 
-            next_node = node.next_node
-            node.next_node = prev
-            prev = node
-            node = next_node
-        self.head = prev
+        pass
